@@ -1,0 +1,123 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #999898;
+	border-radius: 0;
+	border: 0;
+	color: black;
+}
+
+.navbar-brand p {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #8243d6;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: #999898;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+/* End Section */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+/* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+/* Restaurant name */
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+/* Kosher cert */
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  
+/* Star-K */
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+/* Collapsed nav menu text */
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  
+/* Collapsed nav menu glyph */
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: white;
+    color: white;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+}
